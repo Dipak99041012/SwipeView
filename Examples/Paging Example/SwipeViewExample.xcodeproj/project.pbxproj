@@ -18,6 +18,7 @@
 		0148359513A36C3700E687AC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0148358F13A36C3700E687AC /* MainWindow.xib */; };
 		0148359613A36C3700E687AC /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0148359113A36C3700E687AC /* ExampleViewController.xib */; };
 		01715D4917FD6D980060B615 /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01715D4817FD6D980060B615 /* SwipeView.m */; };
+		9EBC5A741990262400EE552E /* SwipeView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9EBC5A731990262400EE552E /* SwipeView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		01715D4A17FD6F070060B615 /* SwipeViewExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SwipeViewExample-Info.plist"; sourceTree = SOURCE_ROOT; };
 		01715D4B17FD6F070060B615 /* SwipeViewExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwipeViewExample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		018BBCB413A375AF005CA505 /* SwipeViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBC5A731990262400EE552E /* SwipeView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SwipeView.podspec; path = ../SwipeView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		01715D4617FD6D980060B615 /* SwipeView */ = {
 			isa = PBXGroup;
 			children = (
+				9EBC5A731990262400EE552E /* SwipeView.podspec */,
 				01715D4717FD6D980060B615 /* SwipeView.h */,
 				01715D4817FD6D980060B615 /* SwipeView.m */,
 			);
@@ -172,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EBC5A741990262400EE552E /* SwipeView.podspec in Resources */,
 				0148359513A36C3700E687AC /* MainWindow.xib in Resources */,
 				0148359613A36C3700E687AC /* ExampleViewController.xib in Resources */,
 				013F5C60168A59F500355CAD /* Default-568h@2x.png in Resources */,

@@ -546,7 +546,7 @@
             view.center = CGPointMake(center.x, _scrollView.frame.size.height/2.0f);
         }
         
-        view.bounds = CGRectMake(0.0f, 0.0f, _itemSize.width, _itemSize.height);
+      //  view.bounds = CGRectMake(0.0f, 0.0f, _itemSize.width, _itemSize.height);
         
         if (disableAnimation && animationEnabled) [UIView setAnimationsEnabled:YES];
     }
